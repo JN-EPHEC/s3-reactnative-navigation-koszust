@@ -1,16 +1,17 @@
+/*
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 
 export default function ProfileScreen() {
   return (
     <View style={styles.container}>
-      {/* Optional profile avatar */}
+      
       <Image
         source={{ uri: 'https://i.pravatar.cc/150?img=3' }}
         style={styles.avatar}
       />
       
-      {/* Static user information */}
+      
       <Text style={styles.name}>John Doe</Text>
       <Text style={styles.username}>@johndoe</Text>
 
@@ -62,3 +63,4 @@ const styles = StyleSheet.create({
     color: '#333',
   },
 });
+*/

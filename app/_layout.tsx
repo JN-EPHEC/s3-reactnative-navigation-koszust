@@ -1,4 +1,4 @@
-import "react-native-reanimated";
+/*import "react-native-reanimated";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import PostListScreen from "./screens/PostListScreen";
@@ -34,3 +34,4 @@ export default function RootLayout() {
 }
 
 
+*/
