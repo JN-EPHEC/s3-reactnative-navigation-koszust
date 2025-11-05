@@ -43,7 +43,7 @@ function DrawerHamburger() {
 
 function CoursesStack() {
   return (
-    <Stack.Navigator screenOptions={{ headerLeft: () => <DrawerHamburger /> }}>
+    <Stack.Navigator screenOptions={{ headerShown : false, }}>
       <Stack.Screen name="CourseList" component={CourseListScreen} options={{ title: 'All Courses' }} />
       <Stack.Screen
         name="CourseDetail"
@@ -56,7 +56,7 @@ function CoursesStack() {
 
 function CoursesTabs() {
   return (
-    <Tab.Navigator
+    <Tab.Navigator 
       screenOptions={({ route }) => ({
         headerLeft: () => <DrawerHamburger />,
         tabBarIcon: ({ size, focused }) => {
